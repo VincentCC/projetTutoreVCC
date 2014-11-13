@@ -15,7 +15,7 @@ if ($enreg = @mysql_fetch_array($result)) {
 		die();
 	}
 else{
-		$_SESSION["login"] = FALSE; // 0 -> FALSE
+		$_SESSION["login"] = FALSE; // si on utilise des chiffres 0
 		// parametrage d'un header refus 
 		die();
 	}
